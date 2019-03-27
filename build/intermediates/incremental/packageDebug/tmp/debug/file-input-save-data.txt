@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Wed Mar 27 18:13:22 CST 2019
+1.base=E\:\\workspace\\socialPlanning\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=ASSET
+0.path=classes.dex
+0.set=DEX
+0.base=E\:\\workspace\\socialPlanning\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+1.path=fonts/TTGangBiF.ttf

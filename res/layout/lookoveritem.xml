@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ecedef" >
+
+    <RelativeLayout
+        android:id="@+id/lolistHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/topstyle" >
+
+        <TextView
+            android:id="@+id/lotv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:ellipsize="end"
+            android:ems="8"
+            android:gravity="center_horizontal"
+            android:singleLine="true"
+            android:text="日程浏览"
+            android:textColor="#ffffff"
+            android:textSize="18dip" />
+
+        <Button
+            android:id="@+id/locancelbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/headbutton"
+            android:text="返回"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/lxiugai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/headbutton"
+            android:text="修改"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/lobar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/lolistHeader"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/lopaint"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

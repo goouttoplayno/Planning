@@ -1,0 +1,4 @@
+#Wed Mar 27 18:13:22 CST 2019
+base.0=E\:\\workspace\\socialPlanning\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+path.0=classes.dex
+renamed.0=classes.dex

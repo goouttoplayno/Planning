@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <com.example.ui.MySurfaceView
+        android:id="@+id/msv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </com.example.ui.MySurfaceView>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="日程规划"
+        android:textSize="50dp" />
+
+    <RelativeLayout
+        android:id="@+id/mainView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" />
+
+</RelativeLayout>

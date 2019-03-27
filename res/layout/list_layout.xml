@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/nationlist"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/topstyle" >
+
+        <TextView
+            android:id="@+id/nationliulanhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="民俗浏览"
+            android:textColor="#ffffff"
+            android:textSize="18dip" />
+
+        <Button
+            android:id="@+id/nationcancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/headbutton"
+            android:text="返回"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/zshow"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/nationfind" >
+    </ListView>
+
+    <RelativeLayout
+        android:id="@+id/nationfind"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nationlist"
+        android:background="@drawable/search_bar_bg"
+        android:gravity="center" >
+
+        <EditText
+            android:id="@+id/searchname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/deleteallbtn"
+            android:background="@drawable/search_bar_edit_bg"
+            android:drawableLeft="@drawable/search_bar_icon_normal"
+            android:hint="请输入民族名称" />
+
+        <ImageView
+            android:id="@+id/deleteallbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_notification_clear_all" />
+    </RelativeLayout>
+
+    <com.example.nation.SideBar
+        android:id="@+id/sideBar"
+        android:layout_width="25dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/nationfind"
+        android:layout_gravity="right|center_vertical" />
+
+</RelativeLayout>

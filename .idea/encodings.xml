@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/com/example/nation/MyAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/nation/listViewActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/nation/mingzujinji.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/nationstyle/FlipHorizontalLayoutActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/nationstyle/TravelAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/planning/AddItem.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/planning/AlarmAlert.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/planning/CallAlarm.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/planning/DateList.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/planning/EditorAdd.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/planning/LookOverItem.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/planning/SetCall.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/planning/SetNameAndDate.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/ui/CoverFlow.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/ui/CoverFlowImageAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/ui/MainActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/example/ui/MySurfaceView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/uitl/Base64.java" charset="UTF-8" />
+  </component>
+</project>

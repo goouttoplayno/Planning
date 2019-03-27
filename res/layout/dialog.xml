@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:background="@drawable/dialog_top" >
+    </ImageView>
+    <!-- 中间白色背景,两个TextView,标题和内容,留一个LinearLayout,在代码中根据调用动态加上按钮 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/alerttitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/alertmessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+        <!-- 在LinearLayout中加按钮 -->
+
+        <LinearLayout
+            android:id="@+id/alertbuttonLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </LinearLayout>
+    <!-- 底部椭园边缘 -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:layout_marginTop="-2dp"
+        android:background="@drawable/dialog_bottom" >
+    </ImageView>
+
+</LinearLayout>

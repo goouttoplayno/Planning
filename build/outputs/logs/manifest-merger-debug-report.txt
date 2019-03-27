@@ -1,0 +1,121 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:2:1-55:12
+INJECTED from E:\workspace\socialPlanning\AndroidManifest.xml:2:1-55:12
+INJECTED from E:\workspace\socialPlanning\AndroidManifest.xml:2:1-55:12
+INJECTED from E:\workspace\socialPlanning\AndroidManifest.xml:2:1-55:12
+INJECTED from E:\workspace\socialPlanning\AndroidManifest.xml:2:1-55:12
+	package
+		ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:3:5-41
+	android:versionName
+		ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:5:5-30
+		INJECTED from E:\workspace\socialPlanning\AndroidManifest.xml
+		INJECTED from E:\workspace\socialPlanning\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:4:5-28
+		INJECTED from E:\workspace\socialPlanning\AndroidManifest.xml
+		INJECTED from E:\workspace\socialPlanning\AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:7:22-78
+application
+ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:9:5-53:19
+	android:label
+		ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:14:9-41
+	android:hardwareAccelerated
+		ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:12:9-44
+	android:icon
+		ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:13:9-45
+	android:allowBackup
+		ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:15:9-40
+	android:name
+		ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:10:9-50
+receiver#com.example.planning.CallAlarm
+ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:16:9-18:41
+	android:process
+		ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:18:13-38
+	android:name
+		ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:17:13-58
+activity#com.example.ui.MainActivity
+ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:20:9-28:20
+	android:label
+		ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:22:13-45
+	android:name
+		ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:21:13-55
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:23:13-27:29
+action#android.intent.action.MAIN
+ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:26:27-74
+activity#com.example.planning.AddItem
+ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:29:9-31:48
+	android:label
+		ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:31:13-45
+	android:name
+		ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:30:13-56
+activity#com.example.planning.EditorAdd
+ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:32:9-34:48
+	android:label
+		ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:34:13-45
+	android:name
+		ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:33:13-58
+activity#com.example.planning.DateList
+ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:35:9-36:20
+	android:name
+		ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:35:19-63
+activity#com.example.planning.AlarmAlert
+ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:37:9-38:20
+	android:name
+		ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:37:19-65
+activity#com.example.planning.LookOverItem
+ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:39:9-40:20
+	android:name
+		ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:39:19-67
+activity#com.example.planning.EditorScan
+ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:41:9-42:20
+	android:name
+		ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:41:19-65
+activity#com.example.planning.SetNameAndDate
+ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:43:9-44:20
+	android:name
+		ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:43:19-69
+activity#com.example.nation.listViewActivity
+ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:45:9-46:20
+	android:name
+		ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:45:19-69
+activity#com.example.nation.mingzujinji
+ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:47:9-48:20
+	android:name
+		ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:47:19-64
+activity#com.example.nationstyle.FlipHorizontalLayoutActivity
+ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:49:9-50:20
+	android:name
+		ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:49:19-86
+activity#com.example.planning.SetCall
+ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:51:9-52:20
+	android:name
+		ADDED from E:\workspace\socialPlanning\AndroidManifest.xml:51:19-62
+uses-sdk
+INJECTED from E:\workspace\socialPlanning\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\workspace\socialPlanning\AndroidManifest.xml
+INJECTED from E:\workspace\socialPlanning\AndroidManifest.xml
+INJECTED from E:\workspace\socialPlanning\AndroidManifest.xml
+INJECTED from E:\workspace\socialPlanning\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\workspace\socialPlanning\AndroidManifest.xml
+		ADDED from E:\workspace\socialPlanning\AndroidManifest.xml
+		INJECTED from E:\workspace\socialPlanning\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\workspace\socialPlanning\AndroidManifest.xml
+		ADDED from E:\workspace\socialPlanning\AndroidManifest.xml
+		INJECTED from E:\workspace\socialPlanning\AndroidManifest.xml

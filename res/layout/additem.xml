@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ecedef" >
+
+    <RelativeLayout
+        android:id="@+id/addlistHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/topstyle" >
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="日程设置："
+            android:textColor="#ffffff"
+            android:textSize="18dip" />
+
+        <Button
+            android:id="@+id/savebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/headbutton"
+            android:text="保存"
+            android:textColor="#ffffff" />
+        <!-- android:background="@drawable/textsave" -->
+
+        <Button
+            android:id="@+id/cancelbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/headbutton"
+            android:text="返回"
+            android:textColor="#ffffff" />
+
+        <!-- android:background="@drawable/textcancel" -->
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/buttom"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/addlistHeader" >
+
+        <RelativeLayout
+            android:id="@+id/tools"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true" >
+
+            <Button
+                android:id="@+id/start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/starttool"
+                android:text="滑动以开始" />
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/start"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/jiantou" />
+
+            <Button
+                android:id="@+id/normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image1"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/normaltool"
+                android:text="添加普通" />
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/normal"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/jiantou" />
+
+            <Button
+                android:id="@+id/important"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image2"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/importanttool"
+                android:text="添加重要" />
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/important"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/jiantou" />
+
+            <Button
+                android:id="@+id/end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignRight="@+id/normal"
+                android:layout_below="@id/image3"
+                android:background="@drawable/endtool"
+                android:text="添加结束" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/line"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignTop="@+id/tools"
+            android:layout_toRightOf="@+id/tools"
+            android:background="@drawable/line" />
+
+        <ScrollView
+            android:id="@+id/bar"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_toLeftOf="@+id/line"
+            android:layout_toRightOf="@+id/line"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:id="@+id/addpaint"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</RelativeLayout>

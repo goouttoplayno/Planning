@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.socialplanning"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="26" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.example.planning.MyApp"
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <receiver
+            android:name="com.example.planning.CallAlarm"
+            android:process=":remote" />
+
+        <activity
+            android:name="com.example.ui.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.planning.AddItem"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.planning.EditorAdd"
+            android:label="@string/app_name" />
+        <activity android:name="com.example.planning.DateList" >
+        </activity>
+        <activity android:name="com.example.planning.AlarmAlert" >
+        </activity>
+        <activity android:name="com.example.planning.LookOverItem" >
+        </activity>
+        <activity android:name="com.example.planning.EditorScan" >
+        </activity>
+        <activity android:name="com.example.planning.SetNameAndDate" >
+        </activity>
+        <activity android:name="com.example.nation.listViewActivity" >
+        </activity>
+        <activity android:name="com.example.nation.mingzujinji" >
+        </activity>
+        <activity android:name="com.example.nationstyle.FlipHorizontalLayoutActivity" >
+        </activity>
+        <activity android:name="com.example.planning.SetCall" >
+        </activity>
+    </application>
+
+</manifest>

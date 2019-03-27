@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/sndlistHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/topstyle" >
+
+        <TextView
+            android:id="@+id/liuchengname1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="保存"
+            android:textColor="#ffffff"
+            android:textSize="18dip" />
+
+        <Button
+            android:id="@+id/sndsave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/headbutton"
+            android:text="保存"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/sndcancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/headbutton"
+            android:text="返回"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/sndlistHeader"
+        android:background="#ecedef" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/sndnamelinear"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/textbaceground"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5px"
+                    android:layout_marginRight="10px"
+                    android:layout_marginTop="5px"
+                    android:text="日程名称:"
+                    android:textSize="20dip" />
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/hengline" />
+
+                <EditText
+                    android:id="@+id/editText1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_alignLeft="@+id/textView1"
+                    android:layout_below="@+id/textView1"
+                    android:layout_marginLeft="5px"
+                    android:layout_marginRight="10px"
+                    android:layout_marginTop="5px"
+                    android:ems="10"
+                    android:textSize="20dip" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/sndwherelinear"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sndnamelinear"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/textbaceground"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/setnameandwhere"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5px"
+                    android:layout_marginRight="10px"
+                    android:layout_marginTop="5px"
+                    android:text="执行地点:"
+                    android:textSize="20dip" />
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/hengline" />
+
+                <EditText
+                    android:id="@+id/sndwhere"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_below="@+id/setnameandwhere"
+                    android:layout_marginTop="10dp"
+                    android:ems="10"
+                    android:textSize="20dip" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/snddatelinear"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sndwherelinear"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/textbaceground"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5px"
+                    android:layout_marginRight="10px"
+                    android:layout_marginTop="5px"
+                    android:text="执行日期："
+                    android:textSize="20dip" />
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/hengline" />
+
+                <DatePicker
+                    android:id="@+id/datePicker1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

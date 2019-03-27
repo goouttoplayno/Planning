@@ -1,0 +1,83 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\workspace\\socialPlanning\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "E:\\workspace\\socialPlanning\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "43,9,21,27,33,38,50",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "1316,194,528,751,1005,1160,1563",
+                        "endLines": "49,18,25,31,36,41,60",
+                        "endColumns": "12,12,12,12,12,12,8",
+                        "endOffsets": "1557,487,743,997,1152,1308,2212"
+                    },
+                    "to": {
+                        "startLines": "38,45,55,60,65,69,73",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "4304,4544,4838,5054,5301,5450,5600",
+                        "endLines": "44,54,59,64,68,72,83",
+                        "endColumns": "12,12,12,12,12,12,8",
+                        "endOffsets": "4539,4833,5049,5296,5445,5595,6239"
+                    }
+                },
+                {
+                    "source": "E:\\workspace\\socialPlanning\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "92,151",
+                        "endColumns": "57,55",
+                        "endOffsets": "145,202"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,113",
+                        "endColumns": "57,55",
+                        "endOffsets": "108,164"
+                    }
+                },
+                {
+                    "source": "E:\\workspace\\socialPlanning\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,3,7,5,8,21,6,31,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "109,56,254,162,291,1826,215,3118,1338",
+                        "endLines": "4,3,7,5,17,30,6,36,20",
+                        "endColumns": "52,52,36,52,134,75,38,639,282",
+                        "endOffsets": "157,104,286,210,1333,3113,249,4186,1821"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,18,28,29,35",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "169,222,275,312,365,1412,2704,2743,3816",
+                        "endLines": "4,5,6,7,17,27,28,34,37",
+                        "endColumns": "52,52,36,52,134,75,38,639,282",
+                        "endOffsets": "217,270,307,360,1407,2699,2738,3811,4299"
+                    }
+                },
+                {
+                    "source": "E:\\workspace\\socialPlanning\\res\\values\\attrs.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "53",
+                        "endLines": "14",
+                        "endColumns": "21",
+                        "endOffsets": "423"
+                    },
+                    "to": {
+                        "startLines": "84",
+                        "startColumns": "4",
+                        "startOffsets": "6244",
+                        "endLines": "95",
+                        "endColumns": "21",
+                        "endOffsets": "6614"
+                    }
+                }
+            ]
+        }
+    ]
+}
